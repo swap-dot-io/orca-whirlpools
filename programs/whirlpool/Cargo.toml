@@ -1,12 +1,12 @@
 [package]
-name = "whirlpool"
-version = "0.5.0"
-publish = false
-edition = "2021"
-license-file = "../../LICENSE"
+name = "whirlpools-client"
+version = "0.2.0"
+description = "Created with Anchor"
+edition = "2018"
 
 [lib]
 crate-type = ["cdylib", "lib"]
+name = "whirlpools_client"
 
 [features]
 no-entrypoint = []
@@ -35,5 +35,5 @@ serde = "=1.0.206"
 serde_json = "=1.0.124"
 
 [dev-dependencies.serde_with]
-version = "=2.3.3"
+version = "1.12.0"
 features = ["json"]
