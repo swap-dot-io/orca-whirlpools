@@ -2817,7 +2817,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "whirlpool"
+name = "whirlpools-client"
 version = "0.6.1"
 dependencies = [
  "anchor-lang",
