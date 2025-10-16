@@ -3,9 +3,3 @@ resolver = "2"
 members = [
     "programs/*"
 ]
-exclude = [
-    "rust-sdk",
-    "ts-sdk",
-    "docs",
-    "examples"
-]
