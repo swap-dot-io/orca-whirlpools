@@ -109,7 +109,7 @@ impl Discriminator for DynamicTickArray {
     }
 }
 
-#[derive(Debug)]
+#[derive(Debug, Clone, Copy)]
 pub struct DynamicTickArrayLoader([u8; DynamicTickArray::MAX_LEN]);
 
 #[cfg(test)]
